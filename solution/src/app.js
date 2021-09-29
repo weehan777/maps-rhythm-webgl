@@ -17,17 +17,17 @@ import * as THREE from 'three';
 import {GLTFLoader} from 'three/examples/jsm/loaders/GLTFLoader.js';
 
 const apiOptions = {
-  apiKey: 'YOUR API KEY',
-  version: "beta",
-  map_ids: ["YOUR MAP ID"]
+  "apiKey": "AIzaSyDK4Tf5i1EzYurpS8KYsts0gGoVx89oi54",
+  "version": "beta",
+  "map_ids": "d0b0d39280f18a5d"
 };
 
 const mapOptions = {
   "tilt": 0,
   "heading": 0,
   "zoom": 18,
-  "center": { lat: 35.6594945, lng: 139.6999859 },
-  "mapId": "YOUR MAP ID"    
+  "center": { lat: -38.59183493612188, lng: 177.9664886386978 },
+  "mapId": "d0b0d39280f18a5d" 
 }
 
 async function initMap() {    
